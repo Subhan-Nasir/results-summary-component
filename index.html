@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <div class="container">
+    <div class="result">
+
+      <div class="your-result">Your Result</div>
+
+      
+      <div class="result-circle">
+        <div class="result-score">76</div>
+        <div class="result-max-score">of 100</div>
+      </div>
+
+      <div class="result-text">
+        <div class="result-name">Great</div>
+        <div class="result-description">You scored higher than 65% of the people who have taken these tests.</div>
+      </div>
+    </div>
+
+    <div class="summary"> Summary
+      
+      <div class="category" data-name="Reaction">
+        <img class="category-icon" src="assets/images/icon-reaction.svg"></img>
+        <div class="category-name">Reaction</div>
+        <div class="category-score-wrapper"><span class="score">80</span> <span class="max-score">/ 100</span></div>
+      </div>
+
+      <div class="category" data-name="Memory">
+        <img class="category-icon" src="assets/images/icon-memory.svg"></img>
+        <div class="category-name">Memory</div>
+        <div class="category-score-wrapper"><span class="score">92</span> <span class="max-score">/ 100</span></div>
+      </div>
+
+      <div class="category" data-name="Verbal">
+        <img class="category-icon" src="assets/images/icon-verbal.svg"></img>
+        <div class="category-name">Verbal</div>
+        <div class="category-score-wrapper"><span class="score">61</span> <span class="max-score">/ 100</span></div>
+      </div>
+
+      <div class="category" data-name="Visual">
+        <img class="category-icon" src="assets/images/icon-visual.svg"></img>
+        <div class="category-name">Visual</div>
+        <div class="category-score-wrapper"><span class="score">72</span> <span class="max-score">/ 100</span></div>
+      </div>
+
+      <button>Continue</button>
+      
+    </div>
+
+    
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
