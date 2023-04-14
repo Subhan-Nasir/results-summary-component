@@ -8,4 +8,4 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot - Mobile
 
-<img src="./Screenshot-mobile.png" alt= “” width="50%"  height="50%">
+<img src="./Screenshot-mobile.png" alt= “” width="50%"  height="50%" style="border: 1px solid blue; border-radius: 20px; " >
